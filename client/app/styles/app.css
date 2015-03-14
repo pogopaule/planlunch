@@ -1,0 +1,90 @@
+@media screen and (max-width: 768px) {
+  .places-map {
+    display: none;
+  }
+
+  .title-bar .add {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  html, body {
+    margin: 20px;
+  }
+
+  .title-bar .add {
+    opacity: 0.1;
+  }
+
+  .highlighted .title-bar .add {
+    opacity: 1;
+  }
+
+  .highlighted .title-bar span, .highlighted .title-bar a {
+    color: #febc14;
+  }
+
+  .menu-list-item img {
+    border: 1px solid black;
+  }
+
+  .highlighted-menu-list-item img {
+    border: 1px solid #febc14;
+  }
+
+
+}
+
+.places-list-item {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.title-bar {
+  position: relative;
+}
+
+.title-bar .add {
+  position: absolute;
+  left: 180px;
+  color: #3071a9;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.time-slot {
+  border-left: 1px solid #428bca;
+}
+
+.top-space {
+  padding-top: 10px;
+}
+
+.bottom-space {
+  padding-bottom: 10px;
+}
+
+.left-space {
+  padding-left: 5px;
+}
+
+.modal-body button {
+  margin-bottom: 5px;
+}
+
+.spinkit-wave-spinner > div {
+  background-color: #428bca;
+}
+
+.subtle-text {
+  opacity: 0.5
+}
+
+.menu-list-item {
+  padding-bottom: 5px;
+}
+
+.menu-list-item img {
+  cursor: pointer;
+}
