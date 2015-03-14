@@ -13,6 +13,9 @@ default: &default
 development:
   <<: *default
   database: planlunch_dev
+  host: localhost
+  username: postgres_db
+  password: postgres_db
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
