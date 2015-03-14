@@ -1,0 +1,10 @@
+client/.divshot-cache/
+client/dist/
+client/tmp/
+client/node_modules/
+client/bower_components/
+
+server/tmp/
+server/log/
+
+.vagrant/
