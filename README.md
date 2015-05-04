@@ -8,17 +8,16 @@
 
 ## Install
 
-* `git clone`
-* `vagrant up`
+* `git clone https://github.com/pogopaule/planlunch.git && cd planlunch && vagrant up`
 
 ## Run
 
 * `vagrant ssh`
-* `./start_servers.sh`
+* Inside the Vagrant box: `cd /vagrant && ./start_servers.sh`
 
 ## Run Tests
 
-* `run_tests.sh`
+* Inside the Vagrant box: `cd /vagrant && ./run_tests.sh`
 
 ## Contribute
 
