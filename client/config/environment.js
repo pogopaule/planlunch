@@ -44,7 +44,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.API_URL = 'http://planlunch-server.herokuapp.com/';
+    ENV.API_URL = 'https://planlunch-server.herokuapp.com/';
   }
 
   return ENV;
