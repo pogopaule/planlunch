@@ -247,28 +247,32 @@ export default [{
   name: 'mm! leckerbar',
   geo: [47.995687, 7.844213],
   website: 'http://www.mm-leckerbar.com/essen/',
-  tags: ['new'],
   distance: 640
 }, {
   id: 41,
   name: 'freundsaft',
   geo: [47.999906, 7.841124],
   website: 'http://freundsaft.com',
-  tags: ['new'],
   distance: 600
 }, {
   id: 42,
   name: 'Streat Kitchen (nur Do)',
   geo: [47.9928028, 7.8325279],
   website: 'https://www.facebook.com/StrEatFreiburg/info',
-  tags: ['new'],
   distance: 900
 }, {
   id: 43,
   name: 'Maria Bar',
   geo: [47.9940886, 7.8481495],
   website: 'http://www.maria-bar.de/karten',
-  tags: ['new'],
   distance: 900
+},
+{
+  id: 44,
+  name: 'Hermann',
+  geo: [47.99645, 7.83935],
+  website: 'https://www.facebook.com/HermannFreiburg',
+  tags: ['new', 'lunch-specials'],
+  distance: 130
 }
 ];

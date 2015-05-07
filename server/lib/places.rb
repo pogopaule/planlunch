@@ -250,5 +250,10 @@
     name: 'Maria Bar',
     website: 'http://www.maria-bar.de/karten',
     distance: 900
+}, {
+    id: 44,
+    name: 'Hermann',
+    website: 'https://www.facebook.com/HermannFreiburg',
+    distance: 130
 }
 ];
