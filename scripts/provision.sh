@@ -1,9 +1,9 @@
 #! /bin/bash
 
 # Oh My Zsh
-apt-get install zsh -y
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-sduo chsh -s `which zsh` vagrant
+sudo apt-get install zsh -y
+sudo curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+sudo chsh -s `which zsh` vagrant
 echo "cd /vagrant" >> /home/vagrant/.zshrc
 sudo update-alternatives --set editor /usr/bin/vim.basic
 
